@@ -22,7 +22,8 @@
 <div class="row">
     <div class="col-md-12">
         <table class="table table-striped"> 
-            <thead>
+            @if(Model.Count > 0){
+                <thead>
                 <tr><th>Id</th>
                 <th>Titulo</th>
                 <th>Autor</th>
@@ -41,7 +42,13 @@
                     <td><a href="/Livro/Edicao/@l.Id">Editar</a></td>
                 </tr>
                 }
+            }
             </tbody>
+            }
+            else{
+                <p>Nenhum Livro Encontrado</p>
+            }
+        }
         </table>
     </div>
 </div>

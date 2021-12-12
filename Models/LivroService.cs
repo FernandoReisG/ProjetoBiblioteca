@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Collections;
+using System;
 
 namespace Biblioteca.Models
 {
@@ -29,6 +30,8 @@ namespace Biblioteca.Models
 
         public ICollection<Livro> ListarTodos(FiltrosLivros filtro = null)
         {
+            Console.WriteLine("Linha 32 - FiltrosLivros" + filtro.Filtro);
+            Console.WriteLine("Linha 32 - FiltrosLivros" + filtro.TipoFiltro);
             using(BibliotecaContext bc = new BibliotecaContext())
             {
                 IQueryable<Livro> query;

@@ -56,3 +56,5 @@ C:\Users\User\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Ca
 C:\Users\User\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\ExcluirUsuario.cshtml.g.cs
 C:\Users\User\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\listadeUsuarios.cshtml.g.cs
 C:\Users\User\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\RegistrarUsuario.cshtml.g.cs
+C:\Users\User\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\EditarUsuario.cshtml.g.cs
+C:\Users\User\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\NeedAdmin.cshtml.g.cs

@@ -8,8 +8,7 @@ namespace Biblioteca.Controllers
         {
             Autenticacao.CheckLogin(this);
             Autenticacao.verificaSeUsuarioEAdmin(this);
-            UsuarioService us = new UsuarioService();
-            return View(us.Listar());
+            return View(new UsuarioService().Listar());
         }
 
         public IActionResult RegistrarUsuario()
@@ -35,7 +34,7 @@ namespace Biblioteca.Controllers
             return View(u);
         }
         [HttpPost]
-        public IActionResult editarUsuario(Usuario userEditado)
+        public IActionResult EditarUsuario(Usuario userEditado)
         {
             new UsuarioService().editarUsuario(userEditado);
             return RedirectToAction("ListaDeUsuarios");
